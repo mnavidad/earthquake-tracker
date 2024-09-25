@@ -1,4 +1,8 @@
 # Getting Started with Create React App
+This project was taken from an example from https://developers.arcgis.com/javascript/latest/sample-code/layers-geojson-refresh/ 
+As you can see this is the React version of this example
+According to Esri, this application shows how to add a GeoJSON layer from USGS earthquake catalog and fetch a new set of data after the layer is loaded
+Moreover this example is using Redux for state management.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
