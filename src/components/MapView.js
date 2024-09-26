@@ -152,14 +152,7 @@ const MapViewComponent = () => {
       }
     };
 
-    // Add legend to the view
-    /* const legendExpand = new Expand({
-      expandTooltip: 'Legend',
-      view,
-      content: new Legend({ view }),
-      expanded: false,
-    }); */
-
+    
     view.when(() => {
         const legendExpand = new Expand({
           view: view,
